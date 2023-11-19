@@ -1,0 +1,72 @@
+.text1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  opacity: 1;
+}
+marquee {
+  behavior:calc(align-items);
+  direction:calc(right);
+  animation-name:initial; 
+}
+img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 350px;
+}
+.numbers {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 31.9px;
+  text-align: center;
+}
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 10.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(255, 0, 0);
+}
+
+li:last-child a {
+  margin-right: 100;
+}
+
+a:link,
+a:visited,
+a:focus {
+}
+
+a:hover {
+  background: rgb(182, 179, 175);
+  opacity: 0.5;
+}
+
+a:active {
+  color: rgb(255, 0, 0);
+}

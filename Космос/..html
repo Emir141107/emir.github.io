@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+DIV {
+  position: relative;
+  height: 2.4em;
+  margin: 1.5em 1em;
+  padding: .2em;
+  border: 1px solid rgb(255, 51, 0);
+  border-radius: 5px;
+  font-size: 1em;
+  }
+@keyframes timing {
+  50%{
+    left: 100%;
+    margin-left: -5.6em;
+  }
+}
+.ease-in-out:before {
+  animation-timing-function: ease-in-out;
+  }
+BODY {
+  background: honeydew;
+  }
+DIV {
+  position: relative;
+  height: 2.4em;
+  margin: 1.5em 1em;
+  padding: .2em;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  font-size: 1.2em;
+  }
+
+DIV:before {
+  content: attr(class);
+  display: inline-block;
+  position: absolute;
+  left: .2em;
+  height: 2em;
+  width: 5em;
+  padding: .2em;
+  background: rgb(255, 0, 0);
+  border-radius: 3px;
+  animation: timing 5s infinite;
+  line-height: 2em;
+  text-shadow: .05em .05em rgb(0, 0, 0);
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFF;
+  }
+.linear:before {
+  animation-timing-function: linear;
+  }
+    </style>
+</head>
+<body>
+<div class="ease-in-out"></div>
+</body>
+</html>

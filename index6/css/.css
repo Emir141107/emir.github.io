@@ -1,0 +1,144 @@
+a {
+    text-decoration: none;
+}
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}
+.img {
+    text-align: center;
+}
+.img h1 {
+    text-align: center;
+    margin-top: -43%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.img h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 12%;
+    font-size: 55px;
+    color: #fff;
+}
+.img h2:hover {
+    color: #000;
+    transition: calc(1s);
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.img p {
+    margin-top: 5%;
+}
+.img a {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.img a:hover {
+    transition: calc(1s);
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.download1 {
+    text-align: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 250px;
+    margin-top: -56px;
+}
+.download1 a {
+    color: #fff;
+    background-color: #000;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.download1 a:hover {
+    transition: calc(1s);
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.download2 {
+    text-align: right;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+    margin-right: 250px;
+    margin-top: -40px;
+}
+.download2 a {
+    color: #fff;
+    background-color: #000;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.download2 a:hover {
+    transition: calc(1s);
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.windows {
+    color: #fff;
+    text-align-last: left;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 37px;
+    max-width: 100px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 8px;
+}
+.android {
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 37px;
+    max-width: 100px;
+    text-align: center;
+    margin-left: 698px;
+    margin-top: -83px;
+}
+.iPhone {
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 37px;
+    max-width: 100px;
+    text-align: center;
+    margin-left: 74%;
+    margin-top: -88px;
+}
+.h1 {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    margin-top: -44%;
+}
+.h2 {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: blue;
+    font-size: 80px;
+    margin-top: -37px;
+}
